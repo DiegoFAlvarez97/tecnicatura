@@ -27,32 +27,6 @@ print("Rango de valores de inicio = 3, fin = 10, incremento = 2")
 for i in range(3, 11, 2):
     print(i)
 
-#Definimos una tupla
-cocina = ('Cuchara', 'Cuchillo', 'Tenedor')
-print(len(cocina))
-
-#Accedemos a un elemento, para esto utilizamos corchetes no parentesis
-print(cocina[0])
-# Mostrar de manera inversa
-print(cocina[-1])
-
-# Acceder a un rango
-print(cocina[0:1])
-# Ejemplo
-verduras = ('papa',) # Si o si necesita la coma para que sea una tupla
-# de lo contradiro solo seria un tipo string
-
-# Recorremos el elemento de la tupla
-for cocinar in cocina:# Print esta usando \n  para saltos de lineas
-    print(cocinar, end=' ') # Usanmos end para eliminar los saltos de linea
-
-cocinaLista = list(cocina)
-cocinaLista[0] = 'plato'
-cocina = tuple(cocinaLista)
-print('\n', cocina)
-
-# del cocina elimina la tupla
-print(cocina)
 
 
 
